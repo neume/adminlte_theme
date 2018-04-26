@@ -9,9 +9,9 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Joseph Nelson Valeros"]
   spec.email         = ["valerosjoseph@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{ A gemified AdminLTE theme for rails pipeline. }
+  spec.description   = %q{ Caters the base theme of AdminLTE by Almsaeed Studio. Plugins are not included by default to maximize performance and should be added manually. }
+  spec.homepage      = "https://github.com/neume/adminlte-theme"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
