@@ -30,6 +30,18 @@ Then in your ```application.css.scss```
 @import "AdminLTE/skins/skin-green";
 ```
 
+Generate your layout.
+``` sh
+rails g adminlte_theme layout_name
+```
+
+```layout_name``` is your layout file name. You can also use ```application``` to use the default layout but be aware that it will be overwritten by this command.
+
+The command will create a file structure similar below but with ```layout_name.html.erb``` instead of ```application.html.erb```.
+
+Some ```image_tag``` were commented out because temporary adminlte image files were not included on the pipeline by default.
+
+
 ### HTMLs
 See this [Admin LTE Installation Guide](https://adminlte.io/docs/2.4/installation) to configure template.
 
